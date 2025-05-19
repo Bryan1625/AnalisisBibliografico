@@ -17,7 +17,7 @@ class Unificador():
         bib_unificado.entries = entradas_totales
 
         # Opcional: guardar en un archivo unificado
-        with open('archivo_unificado.bib', 'w', encoding='utf-8') as f:
+        with open('C:\\Users\\Bryan\\Documents\\btw\\code\\Programacion\\ProyectoAlgoritmos\\src\\estadisticas\\archivo_unificado.bib', 'w', encoding='utf-8') as f:
             writer = bibtexparser.bwriter.BibTexWriter()
             f.write(writer.write(bib_unificado))
 

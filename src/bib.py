@@ -1,14 +1,11 @@
-import os
-from asyncio import wait_for
-
-import requests
-import time
-import bibtexparser
-from bibtexparser.bwriter import BibTexWriter
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
-from cryptography.fernet import Fernet
 import json
+import os
+import time
+
+import bibtexparser
+from cryptography.fernet import Fernet
+from playwright.sync_api import sync_playwright
+
 
 class Biblioteca:
     HEADERS = {"User-Agent": "Mozilla/5.0"}
