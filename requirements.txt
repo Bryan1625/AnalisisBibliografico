@@ -1,0 +1,12 @@
+scikit-learn~=1.6.1
+scipy~=1.15.2
+pandas~=2.2.3
+matplotlib~=3.10.1
+nltk~=3.9.1
+requests~=2.32.3
+bibtexparser~=1.4.3
+bs4~=0.0.2
+beautifulsoup4~=4.13.4
+playwright~=1.52.0
+cryptography~=44.0.2
+pandas
